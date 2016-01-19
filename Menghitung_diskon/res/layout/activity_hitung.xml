@@ -1,0 +1,81 @@
+<TableLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#f06f">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aplikasi Hitung Diskon"
+        android:textSize="20dp"
+        android:gravity="center" />
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+  		android:textSize="16dp" />
+  <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga Awal"
+  		android:textSize="16dp" />
+    <EditText 
+        android:id="@+id/harga"
+    	android:layout_width="fill_parent"
+		android:numeric="integer"
+		android:layout_height="wrap_content">
+    </EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+  		android:textSize="16dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diskon"/>
+    <TableRow>
+    <EditText 
+        android:id="@+id/diskon"
+    	android:layout_width="100dp"
+		android:numeric="integer"
+		android:layout_height="wrap_content"
+		android:text=""  >
+    </EditText>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="%"
+        android:textSize="20dp" />
+    </TableRow>
+    <Button
+        android:id="@+id/proses"
+        android:layout_width="fill_parent"
+        android:text="PROSES" />    
+   <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga Setelah Diskon"
+        />
+   <TableRow>
+ <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RP" 
+        android:textSize="30dp" 
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hasilnya" 
+        android:textSize="40dp" 
+         />
+</TableRow>
+</TableLayout>
